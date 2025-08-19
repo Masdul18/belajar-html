@@ -1,0 +1,29 @@
+.container-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    border: 2px dashed skyblue;
+    gap: 20px;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.item {
+    width: 80px;
+    height: 80px;
+    border: 1px solid paleturquoise;
+    background-color: antiquewhite;
+}
+
+.container-2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    border: 2px dashed skyblue;
+    gap: 20px;
+    padding: 20px;
+    flex-direction: column;
+
+}
