@@ -1,89 +1,102 @@
-<style>
+<head>
+    <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333333;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333333;
         }
 
         .section {
-            background-color: #efeff1; 
-            border: 1px solid; 
-            border-radius: 25px; 
-            border-collapse: c;
-            margin-top: 30px;
-            padding: 10px;
+        background-color: #efeff1;
+        border: 1px solid;
+        border-radius: 25px;
+        border-collapse: c;
+        margin-top: 30px;
+        padding: 10px;
         }
 
         h1,
         h2 {
-            color: #2c3e50;
+        color: #2c3e50;
         }
 
         p {
-            line-height: 1.6;
+        line-height: 1.6;
+        color: #2c3e50;
         }
 
         .konten-utama {
-            background-color: white;
-            width: 80%;
-            margin: 40px auto;
-            padding: 30px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        width: 80%;
+        margin: 40px auto;
+        padding: 30px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
         }
 
         a {
-            color: #007bff;
-        }
+        color: #007bff;
+        text-decoration: none;}
 
         a:hover {
-            text-decoration: none;
-            color: #0056b3;
+        text-decoration: none;
+        color: #0056b3;
         }
 
         .gambar-profil {
-            "width: 200px; 
-            height: 200px; 
-            border: 5px solid white; 
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);"
+        "width: 200px; 
+        height: 200px;
+        border: 5px solid white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        "
+
         }
 
         .tabel-data {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
         }
 
         .tabel-data th,
         .tabel-data td {
-            border: 1px solid #dddddd;
-            padding: 12px;
-            text-align: left;
+        border: 1px solid #dddddd;
+        padding: 12px;
+        text-align: left;
         }
 
         .tabel-data th {
-            background-color: #007bff;
-            color: white;
-            font-weight: bold;
+        background-color: #007bff;
+        color: white;
+        font-weight: bold;
         }
 
-        .sosmed { 
-            color: #FA4659; 
-            text-decoration: none;
-            list-style: none;
-            width: 500px;
-            background-color: #dddddd;
-            margin: auto;
-            text-align: center;
-            padding: 50px
-            
+        .sosmed {
+        color: #FA4659;
+        text-decoration: none;
+        list-style: none;
+        width: 500px;
+        background-color: #dddddd;
+        margin: auto;
+        text-align: center;
+        padding: 50px
         }
 
         .belajar-box-sizing {
-            box-sizing: border-box;
-            background-color: #dddddd;
-            width: 50px;
-            margin: auto;
-            text-align: center;
+        box-sizing: border-box;
+        background-color: #dddddd;
+        width: 50px;
+        margin: auto;
+        text-align: center;
         }
+
+        .menu-sosmed {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+
+        }
+
     </style>
 </head>
